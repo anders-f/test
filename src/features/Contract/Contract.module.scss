@@ -1,0 +1,26 @@
+.contract {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+
+    .left {
+      max-width: 67rem;
+
+      h2 {
+        margin-bottom: 1.6rem;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  .radioButtons {
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 3.6rem;
+  }
+}

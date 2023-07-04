@@ -1,0 +1,49 @@
+.hero {
+  width: 100%;
+  background: $blue25;
+  padding-left: 6.4rem;
+
+  .container {
+    display: flex;
+    gap: 5rem;
+
+    .left {
+      max-width: 55rem;
+      flex-shrink: 3;
+
+      h1 {
+        color: $blue900;
+        margin-top: 6.4rem;
+        margin-bottom: 3.2rem;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 6.4rem;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: end;
+      flex-grow: 1;
+      background: $blue50;
+      border-radius: 20em 0 0 20em;
+      margin: 2rem 0;
+
+      .imgContainer {
+        max-width: 50rem;
+        display: flex;
+        align-items: end;
+        padding-left: 4rem;
+      }
+
+      img {
+        transform: scaleX(-1);
+        width: 100%;
+        height: auto;
+        margin-bottom: -2rem;
+      }
+    }
+  }
+}

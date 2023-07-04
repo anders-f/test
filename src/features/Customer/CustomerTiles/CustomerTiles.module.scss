@@ -1,0 +1,36 @@
+h2 {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+
+  .tile {
+    text-decoration: none;
+    display: block;
+    border: 1px solid $gray200;
+    border-radius: 10px;
+    padding: 1.6rem;
+    width: 34rem;
+    transition: all 0.5s;
+
+    h3 {
+      color: $blue700;
+      margin: 0;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      color: $gray900;
+    }
+
+    &:hover {
+      background: $blue25;
+      border: 1px solid $blue200;
+    }
+  }
+}

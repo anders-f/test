@@ -1,0 +1,64 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $blue700;
+  color: #ffffff;
+  height: $topbar-height;
+  padding: 0 2rem;
+
+  .logo {
+    padding: 1rem 0;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: absolute;
+    z-index: 999;
+    right: 1.6rem;
+    top: calc($topbar-height + 0.8rem);
+    background: #ffffff;
+    color: black;
+    box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1),
+      0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+    width: 23rem;
+
+    .top {
+      border-bottom: 1px solid $gray50;
+
+      & > div:nth-child(1) {
+        padding: 1.6rem 1.6rem 0.8rem 1.6rem;
+      }
+
+      & > div:nth-child(2) {
+        padding: 0 1.6rem 0 1.6rem;
+      }
+
+      & > div:nth-child(3) {
+        padding: 0 1.6rem 1.6rem 1.6rem;
+        color: $gray700;
+      }
+    }
+
+    .bottom {
+      a {
+        text-decoration: none;
+        color: $blue700;
+        padding: 1.6rem;
+        text-align: center;
+        display: block;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

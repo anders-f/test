@@ -1,0 +1,19 @@
+.iconSection {
+  display: flex;
+  gap: 1.6rem;
+
+  .icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $blue50;
+  }
+
+  .iconText {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

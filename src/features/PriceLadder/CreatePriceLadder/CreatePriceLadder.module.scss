@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3.2rem;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": ["react-app"], //from eslint-config-react-app dependency
+  "rules": {
+    "no-console": "warn"
+  }
+}

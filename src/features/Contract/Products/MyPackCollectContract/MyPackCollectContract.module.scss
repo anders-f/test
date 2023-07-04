@@ -1,0 +1,32 @@
+.icons {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 3.6rem;
+
+  .iconSection {
+    display: flex;
+    gap: 1.6rem;
+
+    .icon {
+      width: 64px;
+      height: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .blue {
+      background: $blue50;
+    }
+
+    .orange {
+      background: $orange50;
+    }
+
+    .iconText {
+      padding-top: 0.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

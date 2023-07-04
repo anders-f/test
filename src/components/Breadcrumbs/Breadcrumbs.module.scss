@@ -1,0 +1,24 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: $blue700;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .icon {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}

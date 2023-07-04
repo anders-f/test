@@ -1,0 +1,15 @@
+$padding: 64px;
+
+.container {
+  padding-left: $padding;
+  padding-right: $padding;
+  max-width: 1400px;
+}
+
+.paddingTop {
+  padding-top: $padding;
+}
+
+.paddingBottom {
+  padding-bottom: $padding;
+}
